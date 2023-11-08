@@ -35,7 +35,7 @@ p{
 	font-size: 120%; font-family: 'Albert', sans-serif; font-weight: 500;
 }
 
-hr{margin-left: 22%;margin-right: 22%; height: 3px;border-style: none;background-color: var(--text-color)}
+hr{margin-left: 0%; margin-right: 0%; height: 3px; border-style: none; background-color: var(--text-color)}
 
 .spoiler-text {
   background: var(--text-color);
@@ -86,6 +86,8 @@ hr{margin-left: 22%;margin-right: 22%; height: 3px;border-style: none;background
 	color: var(--bkg-color);
 }
 
+
+
 div.footer{
 	margin-bottom: 15px;
 	margin-left: 22%;
@@ -94,13 +96,12 @@ div.footer{
     justify-content:space-between;
 	justify-content:space-around;
 	align-items:center;
-}
-
+} 
 
 .footer a:hover{text-decoration: none;}
 
 footer{
-	position: fixed;
+	position: relative;
 	float: left;
     left: 0;
     bottom: 0;
