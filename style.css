@@ -23,7 +23,7 @@ body{
 	src: url(fonts/placeholder.otf)
 }
 h1{
-	font-size: 370%;margin-top: 0%; margin-bottom: 2%;
+	font-size: 370%;margin-top: 0%; margin-bottom: 2%; font-weight: bold;
 }
 
 h3{
