@@ -9,20 +9,6 @@ body.dark-theme {
   --bkg-color: #0e1117;
 }
 
-
-/*@media (prefers-color-scheme: dark) {
-
-  body { 
-    --text-color: #eef4ff;
-    --bkg-color: #0e1117;
-  }
-
-  body.light-theme {
-    --text-color: #25292f;
-    --bkg-color: #f6f8fa;
-  }
-}*/
-
 body{
 	margin-left: 22%;
 	margin-right: 22%;
@@ -34,7 +20,7 @@ body{
 }
 @font-face{
 	font-family: myFirstFont;
-	src: url(fonts/NType82-Regular.otf)
+	src: url(fonts/placeholder.otf)
 }
 h1{
 	font-size: 370%;margin-top: 0%; margin-bottom: 2%;
@@ -46,7 +32,7 @@ h3{
 
 p{
 	font-size: 120%;
-	font-family: 'myfirstFont', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 }
 
 hr{margin-left: 22%;margin-right: 22%; height: 3px;border-style: none;background-color: var(--text-color)}
@@ -54,7 +40,6 @@ hr{margin-left: 22%;margin-right: 22%; height: 3px;border-style: none;background
 .spoiler-text {
   background: var(--text-color);
 }
-	/* The big text in the beninging */
 
 .title{
     display:flex;
@@ -63,8 +48,6 @@ hr{margin-left: 22%;margin-right: 22%; height: 3px;border-style: none;background
     padding: 0;
     overflow: hidden;
 }
-
-	/* Reise Reise */
 
 .navbar {
 	justify-content: space-between;
@@ -88,7 +71,7 @@ hr{margin-left: 22%;margin-right: 22%; height: 3px;border-style: none;background
     color: var(--text-color);
     text-decoration: none;
     font-size: 17px;
-    width: 50%; /* Four links of equal widths */
+    width: 50%; /* 2 links of equal widths */
     text-align: center;
 }
 
@@ -102,8 +85,6 @@ hr{margin-left: 22%;margin-right: 22%; height: 3px;border-style: none;background
     background-color: var(--text-color);
 	color: var(--bkg-color);
 }
-
-	/* Footer Fetish */
 
 div.footer{
 	margin-bottom: 15px;
@@ -127,8 +108,6 @@ footer{
     text-align: center;
 	background-color: var(--bkg-color);
 }
-
-	/* Linkin Part */
 
 a{color: var(--text-color);}
 a:link {text-decoration: none;}
